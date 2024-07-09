@@ -98,6 +98,35 @@ module.exports = [
             "quantity": 4
         }
     ],
+    [
+        {
+            "code": "D",
+            "quantity": 4
+        },
+        {
+            "code": "E",
+            "quantity": 1
+        }
+    ],
+    [
+        {
+            "code": "D",
+            "quantity": 4
+        },
+        {
+            "code": "E",
+            "quantity": 1
+        },
+        {
+            "code": "F",
+            "quantity": 1
+        },
+        {
+            "code": "G",
+            "quantity": 1
+        },
+        
+    ],
 ]
 
 

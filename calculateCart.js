@@ -57,7 +57,7 @@ function calculateCart(cart){
     cart.forEach(cartItem => {
         for (const itemCode in pricingDataset){
             if (itemCode === cartItem.code){
-                subtotal += specialsCalculator(cartItem.code, cartItem.quantity, pricingDataset[itemCode])
+                subtotal += calculateSpecials(cartItem.code, cartItem.quantity, pricingDataset[itemCode])
             }
         }
     })
@@ -75,7 +75,7 @@ function calculateCart(cart){
  * @param {number} originalPrice - The original price of the item.
  * @returns {number} - The total price for the item considering any special offers.
  */
-function specialsCalculator (itemCode, itemQuantity, originalPrice) {
+function calculateSpecials(itemCode, itemQuantity, originalPrice) {
     let finalPrice = null
 
     specialPriceOffers.forEach(offer => {

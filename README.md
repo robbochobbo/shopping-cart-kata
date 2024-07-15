@@ -1,8 +1,8 @@
 # Checkout System
 
-Summary: Takes a user "cart" and calculates the sub-total of the items within, applying Special Price offers where applicable. 
+Summary: Takes a user "cart" and calculates the value of the items within, applying Special Price offers where applicable. 
 
-Mock "carts" data is stored in mock_carts.js and used for testing in cartCalculator.test.js 
+Mock "cart" data is stored in mockCarts.js and used for testing in calculateCart.test.js
 
 To clone this repo:
 - Fork on GitHub: https://github.com/robbochobbo/shopping-cart-kata.git
